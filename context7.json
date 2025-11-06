@@ -1,0 +1,25 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "ssl_3_1 — Библиотека стандартных подсистем 3.1.x",
+  "description": "Репозиторий 1C-Syntax: Библиотека стандартных подсистем версии 3.1.x (XML & BSL файлы).",
+  "repository": "https://github.com/1c-syntax/ssl_3_1",
+  "branches": ["master", "main"],
+  "folders": [
+    "src/",
+    "cf/",
+    ""
+  ],
+  "includeFiles": [
+    "*.bsl",
+    "*.xml"
+  ],
+  "excludeFolders": [
+    "tests/",
+    ".github/",
+    "docs/"
+  ],
+  "rules": [
+    "Все файлы .bsl и .xml индексируются для документации.",
+    "Исключать папки с тестами и CI-настройками."
+  ]
+}
